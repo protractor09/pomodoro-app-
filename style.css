@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+}
+
+.container{
+font-family: "Roboto",sans-serif;
+padding: 30px;
+}
+
+.title{
+    font-size: 3rem;
+    color: rgb(1, 77, 36);
+    margin: 20px;
+}
+
+#timer{
+    font-size: 65px;
+    color: rgb(1, 77, 36);
+}
+
+
+button{
+    font-size: 18px;
+    padding: 10px 20px;
+    margin:10px;
+    color: white;
+    border:0px;
+    border-radius: 5%;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#start{
+background-color: green;
+}
+
+#stop{
+    background-color: red;
+}
+
+#reset{
+    background-color: grey;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
